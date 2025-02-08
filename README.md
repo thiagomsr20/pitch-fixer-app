@@ -7,4 +7,4 @@ Conversor de pitch/tom/key de um vídeo do youtube através do link do vídeo
   2. ASP.NET no Back (gerenciar requisições web e do app)
   3. React Native no mobile
 
-1. Diferente de outras soluções da internet, essa possibilita salvar vídeos e a nota escolhida desse vídeo para rodar mais tarde.
+- Diferente de outras soluções da internet, essa possibilita salvar vídeos e a nota escolhida desse vídeo para rodar mais tarde.
