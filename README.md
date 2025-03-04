@@ -1,23 +1,17 @@
-# Pitch Fixer App
+# 🎵 Pitch Fixer App 🎶
 
-**Pitch Fixer App** é uma ferramenta que permite aos usuários alterar o pitch/tom (key) de vídeos do YouTube diretamente a partir do link do vídeo. O aplicativo converte o tom do vídeo e permite que o usuário baixe o vídeo ajustado para acesso posterior. Com isso, você pode ajustar a tonalidade de qualquer música ou áudio de vídeos de forma fácil e prática.
+**Pitch Fixer App** is a tool that allows users to change the **pitch/key** of YouTube videos directly from the video link. The app converts the pitch of the video and allows users to download the adjusted video for later access. This way, you can easily and practically adjust the tone of any music or audio from videos. 🚀
 
-## Funcionalidades
+I came up with the idea for this app because of my church, a simple neighborhood church where people sing but don't have musicians to accompany them. Some choose to sing with playback, but this makes you dependent on always having to sing in the same key as the original singer, who has a lot of vocal technique and range, which results in very high and unreachable notes for those who don't have such techniques.
 
-- **Conversão de pitch**: Altere o tom de um vídeo do YouTube.
-- **Download**: Após a conversão, baixe o vídeo com o pitch ajustado.
-- **Acesso fácil**: Use um link do YouTube para converter qualquer vídeo sem complicações.
+## Features ✨
 
-## Tecnologias utilizadas
+- **⚡ Easy Access**: Use a YouTube link to convert any video with no hassle.
+- **🔊 Pitch Conversion**: Change the pitch of a YouTube video.
+- **🔄 Music Persistence**: The app saves the converted video along with its pitch for future use or reconfiguration.
 
-- **Frontend**:
-  - **React**: Biblioteca JavaScript para construção da interface do usuário.
-- **Backend**:
-  - **ASP.NET**: Framework para gerenciar as requisições web e fornecer o suporte necessário para o aplicativo.
+## Technologies Used 🛠️
 
-## Como rodar o projeto
-
-### Requisitos
-
-- Node.js (recomendado versão LTS)
-- .NET 6 ou superior
+- **⚛️ React**: With TypeScript on the FrontEnd.
+- **🌐 ASP.NET**: C# on the BackEnd, with **Authentication and Authorization** using **JWT** (JSON Web Tokens).
+- **💾 SQL Server**: Relational database to manage saved data, including video configurations and users.
