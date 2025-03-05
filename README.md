@@ -12,6 +12,6 @@ I came up with the idea for this app because of my church, a simple neighborhood
 
 ## Technologies Used 🛠️
 
-- **⚛️ React**: With TypeScript on the FrontEnd.
+- **⚛️ React**: With JavaScript on the FrontEnd.
 - **🌐 ASP.NET**: C# on the BackEnd, with **Authentication and Authorization** using **JWT** (JSON Web Tokens).
 - **💾 SQL Server**: Relational database to manage saved data, including video configurations and users.
