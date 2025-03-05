@@ -6,3 +6,6 @@ createRoot(document.getElementById('root')!).render(
     <h1>Hello World!</h1>
   </StrictMode>
 )
+
+// TODO: Opção de converter o tom de uma musica apenas e não salvar essa conversão.
+// Mas oferecer a opção de o usuário poder se autenticar e salvar suas modificações
