@@ -1,0 +1,42 @@
+.header {
+    width: 85vw;
+    border-bottom: 1px solid #dadada;
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerContainer {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.highlight {
+    color: var(--main-color);
+}
+
+.selectContainer {
+    position: relative;
+    display: flex;
+}
+
+.select {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    color: #4a4a4a;
+    text-align: end;
+    padding-right: 0.5rem;
+}
+
+.option {
+    text-align: center;
+}
