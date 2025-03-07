@@ -1,0 +1,32 @@
+.languageSelector {
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.options {
+    width: 130%;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    position: absolute;
+    top: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.options div {
+    width: 100%;
+    padding: 2px 0 2px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.options div:hover {
+    background-color: #b9b9b9;
+}

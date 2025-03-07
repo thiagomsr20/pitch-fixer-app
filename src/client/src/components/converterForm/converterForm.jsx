@@ -1,12 +1,12 @@
 import React from "react";
-import { useGlobal } from "../hooks/GlobalProvider";
+import { useGlobal } from "../../hooks/GlobalProvider";
 
 export default function ConverterForm() {
     const { language } = useGlobal();
 
     return (
         <button>
-            {language === "pt" ? "Processar" : language === "en" ? "Go" : "Procesar"}
+            {language === "pt" ? "boraa" : language === "en" ? "Go" : "Procesar"}
         </button>
     );
 }

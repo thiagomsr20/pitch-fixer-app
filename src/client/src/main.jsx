@@ -4,13 +4,14 @@ import { GlobalProvider } from './hooks/GlobalProvider';
 import './main.css'
 
 // Components
-import Header from './components/header';
-import ConverterForm from './components/ConverterForm';
+import Header from './components/header/header';
+import ConverterForm from './components/converterForm/converterForm';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <GlobalProvider>
       <Header />
+      <ConverterForm />
     </GlobalProvider>
   </StrictMode>,
 )
