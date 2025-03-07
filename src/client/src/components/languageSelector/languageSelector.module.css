@@ -7,6 +7,14 @@
     position: relative;
 }
 
+.select {
+    cursor: pointer;
+}
+
+.selectSelectedLenguage {
+    padding-right: 5px;
+}
+
 .options {
     width: 130%;
     background-color: #fff;

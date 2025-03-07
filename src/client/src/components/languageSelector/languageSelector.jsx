@@ -21,7 +21,7 @@ export default function LanguageSelector() {
             <div
                 className={styles.select}
                 onClick={handleComboBox}>
-                <span>{language === 'pt' ? 'Português' : (language === 'en' ? 'English' : 'Español')}</span>
+                <span className={styles.selectSelectedLenguage}>{language === 'pt' ? 'Português' : (language === 'en' ? 'English' : 'Español')}</span>
                 <span>{isOpen ? '▲' : '▼'}</span>
             </div>
             {isOpen && (
