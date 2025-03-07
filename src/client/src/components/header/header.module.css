@@ -1,11 +1,36 @@
 .header {
-    width: 85vw;
+    width: 1100px;
     border-bottom: 1px solid #dadada;
     padding: 1rem 0 1rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
     user-select: none;
+}
+
+@media screen and (max-width: 1125px) {
+    .header {
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .header {
+        width: 690px;
+        /* Aqui já deve exibir o menu de hamburguer */
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .header {
+        width: 510px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .header {
+        width: 98vw;
+    }
 }
 
 .headerContainer {
