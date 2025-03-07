@@ -11,7 +11,6 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <GlobalProvider>
       <Header />
-      <ConverterForm />
     </GlobalProvider>
   </StrictMode>,
 )
